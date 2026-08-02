@@ -1,8 +1,29 @@
 aid: zmanda
 name: Zmanda
-description: Zmanda is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zmanda is an enterprise backup and recovery software provider and the
+  commercial steward of the open-source Amanda (Advanced Maryland Automatic
+  Network Disk Archiver) project. Its products protect Linux, Windows and macOS
+  systems, databases, and application data with agent-based and agentless
+  backups that write to local disk, tape, and public-cloud object storage. The
+  company maintains an active GitHub organization (github.com/zmanda) around the
+  Amanda backup engine and related tooling, operates a customer-facing
+  management portal at the Zmanda Network (network.zmanda.com), and publishes
+  API documentation for programmatic backup and recovery management at
+  api.zmanda.com. Zmanda was an early portfolio company of Canaan Partners.
 url: https://raw.githubusercontent.com/api-evangelist/zmanda/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://14528274.fs1.hubspotusercontent-na1.net/hub/14528274/hubfs/Logos/Zmanda%20Logo%202022.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +32,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Backup
+- Recovery
+- Data Protection
+- Disaster Recovery
+- Cloud Backup
+- Storage
+- Enterprise Software
+- Amanda
+- Database Backup
 apis: []
+common:
+- type: TrustCenter
+  url: security/zmanda-trust-center.yml
+- type: DomainSecurity
+  url: security/zmanda-domain-security.yml
+- type: Website
+  url: https://www.zmanda.com/
+- type: APIReference
+  url: https://api.zmanda.com/
+- type: Documentation
+  url: https://api.zmanda.com/
+- type: GitHubOrganization
+  url: https://github.com/zmanda
+- type: Login
+  url: https://network.zmanda.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
