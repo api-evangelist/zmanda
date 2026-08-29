@@ -12,6 +12,17 @@ description: >-
   API documentation for programmatic backup and recovery management at
   api.zmanda.com. Zmanda was an early portfolio company of Canaan Partners.
 url: https://raw.githubusercontent.com/api-evangelist/zmanda/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
